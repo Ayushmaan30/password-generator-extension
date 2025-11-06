@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Password Generator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🔐 Smart Password Generator</h1>
+    </div>
+
+    <div class="generator-section">
+      <div class="section-title">✨ Enter Your Name (One-Time Setup)</div>
+      <label>First Name</label>
+      <div class="input-wrapper">
+        <input type="text" id="firstName" placeholder="Enter first name" />
+      </div>
+      
+      <label>Last Name</label>
+      <div class="input-wrapper">
+        <input type="text" id="lastName" placeholder="Enter last name" />
+      </div>
+      
+      <button class="btn btn-generate" id="generateBtn">
+        ✨ Generate Password
+      </button>
+    </div>
+
+    <div class="input-group">
+      <div class="section-title">🔑 Generated Password</div>
+      <div class="password-display">
+        <span id="generatedPassword">Your password will appear here</span>
+        <div style="display: flex; gap: 8px;">
+          <div class="tooltip">
+            <button class="copy-icon" id="copyBtn" aria-label="Copy password">
+              📋
+            </button>
+            <span class="tooltiptext">Copy</span>
+          </div>
+          <button class="toggle-btn" id="showBtn">Show</button>
+        </div>
+      </div>
+      
+      <div class="strength-bar-container">
+        <div id="strengthFill"></div>
+      </div>
+      <div id="strengthLabel" class="strength-label"></div>
+    </div>
+
+    <div id="aiFeedback" class="ai-feedback">
+      🤖 Fill in your details and click Generate to create a secure password!
+    </div>
+
+    <div class="button-group">
+      <button class="btn btn-secondary" id="resetBtn">🔄 Reset</button>
+      <button class="btn" id="validateBtn" disabled>✅ Validate</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

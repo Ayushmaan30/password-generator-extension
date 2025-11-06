@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Password Generator",
+  "version": "1.0.0",
+  "description": "Generate secure passwords with AI-powered strength checking. Enter your name once, get unique passwords every time!",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": [
+    "clipboardWrite",
+    "storage"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
