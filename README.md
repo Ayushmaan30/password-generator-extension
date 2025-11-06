@@ -65,9 +65,14 @@ The generated password will appear with a strength meter and AI feedback.
 You can Show/Hide, Copy, or Reset the password anytime.
 
 👥 Team Members
-Name	
+
+
+Name
+
 Ayushmaan Saxena
+
 Vaibhav Dwivedi	
+
 Aftab Alam
 
 📄 License
@@ -84,5 +89,6 @@ Enable password history tracking
 Integrate with local storage for saving preferences
 
 Include voice input or chatbot interaction
+
 
 Made with ❤️ by Code Warrior
