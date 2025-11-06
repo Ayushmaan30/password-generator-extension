@@ -84,11 +84,17 @@ This project is open-source and available under the MIT License
 
 Add Dark/Light theme toggle
 
+
 Enable password history tracking
 
+
 Integrate with local storage for saving preferences
+
 
 Include voice input or chatbot interaction
 
 
+
+
 Made with ❤️ by Code Warrior
+
