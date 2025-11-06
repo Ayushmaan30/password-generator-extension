@@ -1,8 +1,8 @@
-# 🔐 Smart Password Generator
+# 🔐 Password Generator extension
 
 ## 📘 Project Description
 The **Smart Password Generator** is an interactive web-based tool that helps users create strong, secure, and personalized passwords.  
-It takes user inputs such as **First Name**, **Last Name**, **Mobile Number**, **Email ID**, and **Special Characters** to generate a **10-character password**.  
+It takes user inputs such as **First Name**, **Last Name** to generate a **10-character password**.  
 The password includes randomly selected characters from the user's input data to ensure **security**, **uniqueness**, and **ease of recall**.  
 
 This project also features an **AI-style feedback system**, **password strength indicator**, **copy-to-clipboard functionality**, and a **modern, glassmorphic UI**.
@@ -41,7 +41,7 @@ The Smart Password Generator solves this by:
 ## ⚙️ Setup / Installation Instructions
 1. Download or clone the repository:
    ```bash
-   git clone https://github.com/your-username/smart-password-generator.git
+   git clone https://github.com/Ayushmaan30/password-generator-extension.git
 2 Navigate to the project folder:
 
 cd smart-password-generator
@@ -97,4 +97,5 @@ Include voice input or chatbot interaction
 
 
 Made with ❤️ by Code Warrior
+
 
